@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Architects+Daughter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
-
+header{
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://images.pexels.com/photos/3183186/pexels-photo-3183186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
 .font1{
     font-family: 'Architects Daughter', cursive;
 }
@@ -14,6 +18,9 @@ h1{
 h1,p{
     color: rgb(42,41,73);
     text-align: center;
+}
+p{
+    color: #ffffff;
 }
 @keyframes white-to-red1{
     0%{
@@ -33,7 +40,7 @@ h1,p{
     }
 }
 body{
-    background:rgba(126, 127, 207,.4);
+   
     border-radius: 5px;
     
 }
